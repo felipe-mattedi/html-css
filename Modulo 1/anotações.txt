@@ -1,0 +1,4 @@
+GitHub -> Criar Repositório -> Pegar as instruções para linkar o repositório remoto com o repositório local.
+
+
+git push -u origin master -> envia os dados para o reposítorio - procedência "master"
