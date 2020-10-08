@@ -1,0 +1,73 @@
+GitHub -> Criar Repositório -> Pegar as instruções para linkar o repositório remoto com o repositório local.
+
+
+git push -u origin master -> envia os dados para o reposítorio - procedência "master"
+
+
+---
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Torna a página responsiva. Viewport é a parte do navegador onde a página sera renderizada. Estamos definindo que o viewport vai ser de acordo com a largura do dispositivo "device-width".
+
+
+---
+
+Cada tag <meta> deve possuir apenas uma definição. Não podemos fazer tudo na mesma.
+
+tag <span> é como se fosse uma tag genérica <div> mas sem quebra de linha
+
+----
+
+listas no HTML
+
+<ul> = lista não numerada
+<ol> = lista ordenada
+<li> = itens da lista - fica dentro da ul
+
+  atributo chamado "contenteditable"- true, o item pode ser editável.
+
+----
+
+<iframe> = adicionar um vídeo por exemplo. uma janela com outro site.
+<audio>
+<video>
+
+
+----
+
+formatação de texto
+
+<b> - Negrito
+<strong> - + forte - Semântica, significado diferente.
+
+<i> - Itálico
+<en> - + sentido - Semântica
+
+<u> - Sublinhado (não recomendado)
+<s> - Texto riscado
+<mark> - Texto marcado
+
+<pre> - Texto pré formatado - Recuo maior - espaçamento monospace
+ - do jeito que vc escreve ele formata
+
+<code> - escrita de código
+
+<blockquote> - citação
+
+<sup> - acima
+<sub>: - abaixo 
+
+- ABRINDO ARVORE
+    <details>
+      <summary> 
+        <p>Item1</p>
+      </summary>
+    </details>
+
+    <details>
+      <summary> 
+        <p>Item2</p>
+      </summary>
+    </details>
+
