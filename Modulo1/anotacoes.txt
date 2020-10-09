@@ -71,3 +71,10 @@ formatação de texto
       </summary>
     </details>
 
+Atributos class e id - podemos colocar em qualquer tag HTML.
+
+id- Identificador único. Não podemos repetir. Será referenciado no CSS.
+class - Identificador genérico. Por ex: todos os parágrafos com o mesmo estilo. Será referenciado no CSS.
+
+HTML 5 - Elementos semânticos - tem um sentido.
+<main> - 
