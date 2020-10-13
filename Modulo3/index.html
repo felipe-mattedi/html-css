@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 03</title>
+</head>
+<body>
+  <header>
+    <!-- Barra de Navegação -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <aside>
+
+    </aside>
+    <section>
+      <h2>Tabelas</h2>
+      <h3>Tabela de Alunos</h3>
+      <table border='1'>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>E-mail</th>
+            <th>Cursos</th>
+            <th>Módulos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Arthur</td>
+            <td>arthur@com.br</td>
+            <td>Pi Web</td>
+            <td>HTML e CSS</td>
+          </tr>
+          <tr>
+            <td>Felipe</td>
+            <td rowspan="2">felipe@com.br</td>
+            <td rowspan="2">Pi Web</td>
+            <td rowspan="2">HTML e CSS</td>
+          </tr>
+          <tr>
+            <td>Felipe</td>
+          </tr>
+          <tr>
+            <td>Ayrton</td>
+            <td>ayrton@com.br</td>
+            <td>Pi Web</td>
+            <td>HTML e CSS</td>
+          </tr>
+          <tr>
+            <td colspan="2">Ayrton</td>
+            <td colspan="2">Pi Web</td>
+          </tr>
+        </tbody>
+      </table>
+
+    <h3>Reproduzir tabela da aula</h3>
+    <table border="2">
+      <thead>
+        <tr>
+          <th colspan=2>Funcionalidades em páginas HTML</th>
+        </tr>
+        <tr>
+          <th>Funcionalidades</th>
+          <th>Tags</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="5">Barra de Navegação</td>
+          <td>header</td>
+        </tr>
+        <tr>
+          <td>nav</td>
+        </tr>
+        <tr>
+          <td>ul</td>
+        </tr>
+        <tr>
+          <td>li</td>
+        </tr>
+        <tr>
+          <td>a</td>
+        </tr>
+        <tr>
+          <td rowspan="6">Tabelas</td>
+          <td>table</td>
+        </tr>
+        <tr>
+          <td>thead</td>
+        </tr>
+        <tr>
+          <td>tbody</td>
+        </tr>
+        <tr>
+          <td>th</td>
+        </tr>
+        <tr>
+          <td>td</td>
+        </tr>
+        <tr>
+          <td>tr</td>
+        </tr>
+        <tr>
+          <td rowspan="6">Formulários</td>
+          <td>form</td>
+        </tr>
+        <tr>
+          <td>input</td>
+        </tr>
+        <tr>
+          <td>select</td>
+        </tr>
+        <tr>
+          <td>option</td>
+        </tr>
+        <tr>
+          <td>textarea</td>
+        </tr>
+        <tr>
+          <td>datalist</td>
+        </tr>
+      </tbody>
+    </table>
+    </section>
+  </main>
+  <section id="figures">
+    <figure>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML5 logo" width="10%">
+    <figcaption>HTML 5 - LOGO</figcaption>
+    </figure>
+  </section>
+  <br>
+  <section>
+    <h3>FORMULÁRIOS</h3>
+    <form>
+      <label for="Texto">Digite aqui</label>
+      <input type="text" placeholder="Auto preenchimento" name="Texto">
+      <input type="hidden">
+      <input type="checkbox" checked>
+      <input type="range" value="25">
+      <input type="time">
+    </form>
+
+  </section>
+  <br>
+  <footer>
+    Copyright &copy2020;
+
+  </footer>
+</body>
+</html>
