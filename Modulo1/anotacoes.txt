@@ -77,4 +77,16 @@ id- Identificador único. Não podemos repetir. Será referenciado no CSS.
 class - Identificador genérico. Por ex: todos os parágrafos com o mesmo estilo. Será referenciado no CSS.
 
 HTML 5 - Elementos semânticos - tem um sentido.
-<main> - 
+
+---- FORMULÁRIOS ----
+
+atributo action = o que ele vai fazer com aquele dado.
+atributo method = método http que vai ser utilizado na submissão
+atributo value = valor do campo
+atributo placeholder = Nome do campo em cinza
+atributo name = Nome do campo.
+tag label = nome que se dá a um campo do formulário. Título.
+<label for='nome do input'> </label>
+
+
+
