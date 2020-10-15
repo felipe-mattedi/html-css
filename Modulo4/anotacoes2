@@ -1,0 +1,21 @@
+CSS - Cascade Style Sheets - Aplicar estilos - estilização
+
+-> Seletor: o que eu uso para selecionar um determinado elemento do HTML.
+-> Regras de estilo: os estilos que eu quero aplicar.
+
+seletor { regra : definição; próxima regra ...}
+
+Css inline -  style - serve somente para o marcador atual
+
+ <h2 id='front-end' style='font-size: 15; color: blue;'>Como se tornar um desenvolvedor Front-end</h2>
+
+ <style> -> aqui dentro você coloca os seletores e as regras
+
+<style>
+    p{font-family: Arial, Helvetica, sans-serif;}
+    h2{font-size: 15; color: blue; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+  </style>
+
+css file:
+  <link rel='stylesheet' href='styles.css'>
+  referenciado

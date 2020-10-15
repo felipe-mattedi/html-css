@@ -88,5 +88,9 @@ atributo name = Nome do campo.
 tag label = nome que se dá a um campo do formulário. Título.
 <label for='nome do input'> </label>
 
+boa prática -> colocar class='form-input' nos campos de input
+<input type="url">: um input tipe text mas que serve mais para digitar URL. Vão aparecer as URLS que você já jogou nos inputs. Coloca atributo pattern='https'
+
+
 
 
