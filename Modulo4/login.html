@@ -1,0 +1,49 @@
+<!-- Let's Code - Atividade 4 
+Formulários -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresa - Acesso ao Sistema</title>
+  <link rel='icon' href='cadeado.png'>
+</head>
+<body>
+  <header>
+    <h1>Empresa</h1>
+  </header>
+  <main>
+    <aside>
+      <figure>
+        <img src='cadeado.png' width="5%" alt='Figura Cadeado'>
+      </figure>
+    </aside>
+    <h2>Bem vindo à página de acesso ao sistema</h2>
+    <h3>Entre com seus dados</h3>
+    <form>
+      <label for="forma-acesso">Forma de acesso:</label>
+      <select name='forma-acesso'>
+        <option disabled selected>Selecione</option>
+        <option value='cpf'>CPF</option>
+        <option value='celular'>Nº Celular</option>
+        <option value='id-unico'>ID Único</option>
+      </select>
+      <input type="number" name="login" maxlength="15" placeholder="Digite aqui">
+      <br>
+      <br>
+      <label for="senha">Senha:</label>
+      <input type="password" maxlength="10" name="senha">
+      <br>
+      <br>
+      <input type="submit" value='Acessar'>
+    </form>
+    <h4>Ainda não tem cadastro?</h4>
+    <a href='cadastro.html'>Cadastre-se</a>
+    <h4>Problemas de acesso?</h4>
+    <a href='contato.html'>Fale Conosco</a>
+  </main>
+  <footer>
+    <p>Copyright &copy2020 Empresa</p>
+  </footer>
+</body>
+</html>
