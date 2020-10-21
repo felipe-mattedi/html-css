@@ -5,7 +5,7 @@ Formulários -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Empresa - Acesso ao Sistema</title>
+  <title>Empresa - Fale Conosco</title>
   <link rel='icon' href='cadeado.png'>
 </head>
 <body>
@@ -19,30 +19,34 @@ Formulários -->
         <img src='cadeado.png' width="5%" alt='Figura Cadeado'>
       </figure>
     </aside>
-    <h2>Bem vindo à página de cadastro</h2>
+    <h2>Bem vindo à página de fale conosco!</h2>
     <h3>Preencha os dados abaixo e aguarde o nosso contato</h3>
     <form>
       <label for="nome">Nome completo:</label>
-      <input type="text" name="nome" style="text-transform:uppercase">
+      <input type="text" name="nome" placeholder="Digite aqui seu nome"  required>
       <br>
       <br>
       <label for="email">E-Mail:</label>
-      <input type="email" name="email" style="text-transform:uppercase">
+      <input type="email" name="email" placeholder="Digite aqui seu e-mail" required>
       <br>
       <br>
-      <label for="cpf">CPF:</label>
-      <input type="number" name="cpf" maxlength="11">
+      <select name="motivo" required>
+        <option disabled selected value=''>Selecione o motivo do contato</option>
+        <option value='1'>Dúvida</option>
+        <option value='2'>Sugestão</option>
+        <option value='3'>Reclamação</option>
+        <option value='4'>Outros</option>
+      </select> 
       <br>
       <br>
-      <label for="senha">Senha:</label>
-      <input type="password" maxlength="10" name="senha">
+      <textarea name='mensagem' id='message' cols=60 rows=10 placeholder="Digite o Texto" required></textarea>
       <br>
       <br>
       <input type="submit" value='Enviar'>
       <input type="reset" value='Limpar'>
+      <br>
+      <br>
     </form>
-    <h4>Problemas durante o cadastro?</h4>
-    <a href='contato.html'>Fale Conosco</a>
   </main>
   <footer>
     <p>Copyright &copy2020 Empresa</p>

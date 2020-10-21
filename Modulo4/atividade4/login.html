@@ -21,18 +21,16 @@ Formulários -->
     <h2>Bem vindo à página de acesso ao sistema</h2>
     <h3>Entre com seus dados</h3>
     <form>
-      <label for="forma-acesso">Forma de acesso:</label>
-      <select name='forma-acesso'>
-        <option disabled selected>Selecione</option>
-        <option value='cpf'>CPF</option>
-        <option value='celular'>Nº Celular</option>
-        <option value='id-unico'>ID Único</option>
-      </select>
-      <input type="number" name="login" maxlength="15" placeholder="Digite aqui">
+      <label for="forma-acesso">E-Mail de acesso:</label>
+      <input type="email" name="forma-acesso" placeholder="Digite aqui seu e-mail" required>
       <br>
       <br>
       <label for="senha">Senha:</label>
-      <input type="password" maxlength="10" name="senha">
+      <input type="password" maxlength="10" name="senha"  placeholder="Digite aqui sua senha" required>
+      <br>
+      <br>
+      <label for="persiste">Deseja se manter conectado?</label>
+      <input type="checkbox" name="persiste">
       <br>
       <br>
       <input type="submit" value='Acessar'>
