@@ -30,6 +30,7 @@ Formulários -->
       <input type="email" name="email" placeholder="Digite aqui seu e-mail" required>
       <br>
       <br>
+      <label for="motivo"></label>
       <select name="motivo" required>
         <option disabled selected value=''>Selecione o motivo do contato</option>
         <option value='1'>Dúvida</option>
@@ -39,7 +40,9 @@ Formulários -->
       </select> 
       <br>
       <br>
-      <textarea name='mensagem' id='message' cols=60 rows=10 placeholder="Digite o Texto" required></textarea>
+      <label for="mensagem">Escreva a sua mensagem:</label>
+      <br>
+      <textarea name='mensagem' cols=60 rows=10 placeholder="Digite o Texto" required></textarea>
       <br>
       <br>
       <input type="submit" value='Enviar'>
