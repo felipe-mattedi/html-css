@@ -19,3 +19,23 @@ Css inline -  style - serve somente para o marcador atual
 css file:
   <link rel='stylesheet' href='styles.css'>
   referenciado
+
+  font family. 
+
+   unidades relativas em fontes -> em e rem 
+   em -> varia de acordo com a definição da tag pai. Se eu falar que o pai é 16px e eu falar que é 1em nas debaixo ela vai valer 16em.
+   rem -> multiplicativo padrão do navegador específico. 
+
+   definir cor: color: rgb(0,0,0)
+
+   tag <span> - cria tag genérica para que vc possa formatar depois.
+
+   definição de margem
+   margin acima,direita,embaixo,esquerda
+
+   seletores css:
+   a própria tag
+   class - comum para várias
+   id - único
+
+   :first-child - pega somente o primeiro filho. por exemplo em uma tabela vai pegar somente a primeira linha. Existe também o :last-child, nth-child(even) somente os filhos pares.

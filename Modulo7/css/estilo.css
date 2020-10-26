@@ -1,0 +1,39 @@
+.caixas{
+
+  height: 300px;
+  
+ 
+}
+
+
+.caixa{
+ 
+  width: 20%;
+  height: 100px;
+  color:white;
+  font-size: 700;
+  text-align: center;
+  display: inline;
+  line-height: 200px;
+
+ 
+}
+
+.caixa1{
+
+  background-color: red;
+
+}
+
+.caixa2{
+
+  background-color: greenyellow;
+
+}
+
+.caixa3{
+  background-color: indigo;
+
+
+
+}

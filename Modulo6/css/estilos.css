@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,400;0,600;1,200&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+html, body{ font-family: 'Piazzolla', serif;
+}
+
+#header .nav-bar-list{
+  list-style: square inside;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  background-color: grey;
+  
+}
+
+#header .nav-bar-list .list-item{
+  color:white;
+  padding: 0.4rem;
+  width:200px;
+  background-color:rgb(165, 165, 165);
+  padding-left: 1.4rem;
+  transition: all 0.2s;
+  cursor: pointer;
+  
+  
+}
+
+#header .nav-bar-list .list-item:hover{
+ font-size:1.15rem;
+}
+
+#main-section{
+  margin-top:1rem;
+  margin-left: 1rem;
+  width: 95%;
+
+}
+
+#main-section p, h1{
+  padding: 0.6rem;
+  text-indent: 0.5rem;
+  text-align: justify;
+
+}
+
+#main-section h1.title{
+  font-size: 3rem;
+  border-bottom: black solid 0.1px;
+  padding: 0rem;
+}
+
+#main-section .btn{
+  margin-top:15px;
+  background-color: cadetblue;
+  padding:0.8rem;
+  color:blue;
+  text-transform: uppercase;
+  font-size:1.2rem;
+  border-radius: 1.5rem;
+  border:5px solid transparent;
+  box-shadow: 0px 0px 10px black;
+
+}
+
+#main-section .btn:hover{
+ border:5px solid navy;
+ color: cadetblue;
+ background-color:blue;
+ cursor: pointer;
+ box-shadow:none;
+ transform: translate(5px 5px);
+}
+
+#main-section .texto .tabela{
+  width:40%;
+  margin: 1rem 30% ;
+  border: 0.2rem solid black;
+  border-collapse: collapse;
+
+}
+
+#main-section .texto .tabela thead tr{
+  text-align: center;
+  background-color: rgb(44, 77, 78);
+  border-bottom: 0.2rem solid black;
+  
+  
+}
+
+#main-section .texto .tabela thead tr th,
+#main-section .texto .tabela tbody tr td{
+  padding: 1.0rem 0rem;
+  width: 20%;
+  
+}
+
+#main-section .texto .tabela tbody td{
+  text-align: center;
+  border: none;
+}
+
+#main-section .texto .tabela tbody .impar{
+  background-color: cadetblue;
+}
+
+.tabela tbody tr td div{
+  border: 0.1rem solid black;
+  border-radius: 1rem; 
+  width: 95%;
+  color:white;
+}
+
+.tabela tbody tr td div.aprovado{
+  background-color: green;
+  
+}
+.tabela tbody tr td div.reprovado{
+  background-color: red; 
+}
+
+.tabela tbody tr td div.final{
+  background-color: rgb(184, 184, 18); 
+
+}
