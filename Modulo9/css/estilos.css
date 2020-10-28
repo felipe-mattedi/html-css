@@ -1,0 +1,212 @@
+body{
+  width: 70%;
+  margin: 2.5% 15%;
+}
+
+#header .navbar {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#header .navbar .nav-list{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+
+}
+
+#header .navbar .nav-list .nav-link{
+  margin: 0 1rem;
+  text-decoration:none;
+  color: #1f1534;
+  opacity: 0.5; 
+ 
+}
+
+
+#header .navbar .nav-list .nav-link:hover{
+
+  text-decoration:none;
+  color: #1f1534;
+  opacity: 1;
+  font-weight: 800;
+ 
+}
+
+#header .banner {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+
+}
+
+#header .banner .content{
+  width: 40%;
+
+}
+
+#header .banner .content h4{
+
+  color: #1f1534;
+  opacity: 0.5; 
+  font-weight: 400;
+  margin-top: 2rem;
+
+}
+
+#header .banner .content button{
+
+  margin-top: 2rem;
+  border: none;
+  width:150px;
+  height: 40px;
+  background-color: #458ff6;
+  color:white;
+  border-radius: 55px;
+  font-weight: 600;
+
+
+}
+
+#header .banner .header-image {
+  width: 50%;
+
+}
+
+#header .banner .header-image img {
+  width: 100%;
+
+}
+
+#header .lista-servicos {
+    
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+#header .lista-servicos .servico-especifico {
+    
+  width: 28%;
+  height: 200px;
+  margin:15px 0;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 20px 20px 15px  rgba(128, 128, 128, 0.089);
+
+}
+
+#header .servicos h4{
+  margin: 5rem 0rem 2rem 0rem ;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#header .servicos > h5{
+  font-size: 0.8rem;
+  text-align: center;
+  color: #1f1534;
+  opacity: 0.5; 
+  font-weight: 600;
+  width: 80%;
+  margin:0 auto 2rem auto;
+}
+
+#header .lista-servicos .servico-especifico img{
+  height: 80px;
+
+}
+
+#header .lista-servicos .servico-especifico h5{
+  color: #1f1534;
+  opacity: 1; 
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: 800;
+
+}
+
+#header .lista-servicos .servico-especifico h6{
+  color: #1f1534;
+  opacity: 0.5; 
+  margin: 1rem 0;
+
+}
+
+
+
+
+
+
+
+
+/* Break Point */
+
+@media (max-width: 768px) {
+
+  body{
+    width: 80%;
+    margin: 5% 8%;
+  }
+
+  #header .navbar {
+    
+  
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  #header .navbar .nav-list{
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+
+  #header .navbar .nav-list .nav-link{
+    display:block;
+    margin: 0.2rem 0rem ;
+  }
+
+  #header .banner {
+
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1rem;
+    
+  }
+
+  #header .banner .content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  
+}
+
+#header .banner h1{
+
+text-align: center;
+
+}
+
+#header .banner h4{
+
+  text-align: justify;
+  
+  }
+
+}
