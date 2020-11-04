@@ -237,7 +237,7 @@ margin: 0 1.2rem;
   margin:0 0 0 auto;
   }
 
-   .presentation{
+   .area1{
     display:flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -247,12 +247,12 @@ margin: 0 1.2rem;
   
   }
 
-  .presentation .presentation-text h1{
+  .area1 .area1-text h1{
     font-size:2rem;
     font-weight: 800;
   }
   
-  .presentation img{
+  .area1 img{
     width:80%;
   }
 
